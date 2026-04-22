@@ -41,21 +41,13 @@
         </div>
       </div>
       <div class="feat-visuals">
-        <img 
-          :src="samarkandImg" 
+        <img
+          :src="samarkandImg"
           alt="Registan Square, Samarkand"
-          class="fv-main" 
+          class="fv-main"
         />
-        <img 
-          :src="tbilisiImg" 
-          alt="Tbilisi, Georgia"
-          class="fv-a1" 
-        />
-        <img 
-          :src="yerevanImg" 
-          alt="Yerevan, Armenia"
-          class="fv-a2" 
-        />
+        <img :src="tbilisiImg" alt="Tbilisi, Georgia" class="fv-a1" />
+        <img :src="yerevanImg" alt="Yerevan, Armenia" class="fv-a2" />
         <div class="feat-badge">
           <div class="fb-top">Only</div>
           <div class="fb-num">4</div>

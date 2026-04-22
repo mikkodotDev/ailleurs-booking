@@ -19,7 +19,8 @@ export const experiences = [
       "A guided sunrise trek across Mer de Glace — the largest glacier in the Alps — with a private mountain guide and champagne at the summit.",
     price: "$380",
     duration: "8 hours",
-    image: new URL("../assets/images/dawn glacier trek.png", import.meta.url).href,
+    image: new URL("../assets/images/dawn glacier trek.png", import.meta.url)
+      .href,
   },
   {
     id: 3,
@@ -41,6 +42,7 @@ export const experiences = [
       "Exclusive after-hours access to the Colosseum. Walk the arena floor by torchlight with a Roman historian. Strictly 8 guests maximum.",
     price: "$680",
     duration: "3 hours",
-    image: new URL("../assets/images/prvate colosseum.jpg", import.meta.url).href,
+    image: new URL("../assets/images/prvate colosseum.jpg", import.meta.url)
+      .href,
   },
 ];

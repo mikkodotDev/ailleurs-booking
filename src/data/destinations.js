@@ -27,7 +27,8 @@ export const destinations = [
     rating: "4.9",
     price: "$4,120",
     duration: "14 days",
-    image: new URL("../assets/images/singapore & cambodia.jpg", import.meta.url).href,
+    image: new URL("../assets/images/singapore & cambodia.jpg", import.meta.url)
+      .href,
   },
   {
     id: 4,
@@ -37,7 +38,8 @@ export const destinations = [
     rating: "4.7",
     price: "$2,450",
     duration: "9 days",
-    image: new URL("../assets/images/bangkok & chiang mai.jpg", import.meta.url).href,
+    image: new URL("../assets/images/bangkok & chiang mai.jpg", import.meta.url)
+      .href,
   },
   {
     id: 5,
@@ -47,7 +49,8 @@ export const destinations = [
     rating: "4.9",
     price: "$3,680",
     duration: "8 days",
-    image: new URL("../assets/images/santorini & mykonos.png", import.meta.url).href,
+    image: new URL("../assets/images/santorini & mykonos.png", import.meta.url)
+      .href,
   },
   {
     id: 6,

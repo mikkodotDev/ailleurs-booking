@@ -66,12 +66,7 @@
           <div class="form-row">
             <div class="form-group">
               <label for="date">Preferred Date</label>
-              <input
-                id="date"
-                v-model="formData.date"
-                type="date"
-                required
-              />
+              <input id="date" v-model="formData.date" type="date" required />
             </div>
             <div class="form-group">
               <label for="travelers">Number of Travelers</label>
@@ -464,7 +459,9 @@ const submitForm = () => {
   font-family: var(--sans);
   font-size: 0.9rem;
   color: var(--ink);
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
 }
 
 .form-group input:focus,
