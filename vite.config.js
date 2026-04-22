@@ -3,7 +3,7 @@ import vue from "@vitejs/plugin-vue";
 import path from "path";
 
 export default defineConfig({
-  base: "/travel-website/",
+  base: "/ailleurs-booking/",
   plugins: [vue()],
   resolve: {
     alias: {
